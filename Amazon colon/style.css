@@ -1,0 +1,1035 @@
+body {
+    background-color: rgba(200, 195, 188, 0.591);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header .navbar1 {
+    height: 60px;
+    width: 100%;
+    background-color: rgb(17, 16, 16);
+}
+
+.logo {
+    display: flex;
+}
+
+.logo img {
+    height: 125px;
+    position: relative;
+    top: -32px;
+    left: 15px;
+}
+
+.country {
+    color: white;
+    z-index: 1;
+}
+
+.country .location {
+    height: 25px;
+    position: relative;
+    top: 3px;
+    left: 30px;
+    filter: contrast(2);
+    z-index: -1;
+    border-radius: 10px;
+}
+
+.country h2 {
+    position: relative;
+    top: 27px;
+    left: 60px;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.diliver {
+    color: rgb(171, 167, 167);
+    position: relative;
+    left: 15px;
+    top: 12px;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.select {
+    position: relative;
+    left: 50px;
+    top: 10px;
+
+
+}
+
+.select select {
+    padding: 10px;
+    border-radius: 5px;
+    text-align: start;
+    font-size: 14px;
+    width: 60px;
+    background-color: rgb(245, 236, 236);
+
+}
+
+
+.input input {
+    padding: 10px;
+    width: 650px;
+    position: relative;
+    top: -39px;
+    left: 58px;
+}
+
+.input .gg-search {
+    position: relative;
+    top: 0px;
+    left: 11px;
+
+
+
+}
+
+.search {
+    background-color: orange;
+    width: 30px;
+    height: 13px;
+    padding: 13px;
+    position: relative;
+    top: -78.3px;
+    left: 710px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+
+}
+
+.lang-select {
+    position: absolute;
+    top: 0px;
+    left: 60px;
+    padding: 5px;
+    padding-left: 750px;
+
+}
+
+.lang-select select {
+    width: 70px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid black;
+    font-weight: bold;
+}
+
+.flag img {
+    height: 15px;
+    position: relative;
+    top: -153px;
+    left: 800px;
+    z-index: 1;
+
+}
+
+.accountlist {
+    position: relative;
+    top: 20px;
+    left: 250px;
+    color: white;
+}
+
+.accountlist span {
+    position: relative;
+    top: -20px;
+    left: 45px;
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.accountlist select {
+    position: relative;
+    left: -37px;
+    top: 0px;
+    border: 2px solid rgba(0, 0, 0, 0.364);
+    background-color: transparent;
+    color: white;
+    background-color: 2px solid rgb(240, 237, 237);
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.order {
+    position: relative;
+    left: 185px;
+    color: white;
+    top: 22px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.returns {
+    position: relative;
+    left: 230px;
+    color: white;
+    top: 7px;
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.chart span {
+    position: relative;
+    color: white;
+    left: 260px;
+    top: 0px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.chart img {
+    height: 40px;
+    position: relative;
+    color: white;
+    left: 163px;
+    top: 5px;
+}
+
+.navbar2 {
+    background-color: rgb(13, 14, 32);
+    padding: 10px;
+}
+
+.navbar2 ul li {
+    display: inline;
+    position: relative;
+    left: 0px;
+    padding: 13px;
+    text-decoration: none;
+}
+
+.navbar2 ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar2 ul li a:hover{
+    border: 1px solid white;
+}
+
+.first-box {
+    display: flex;
+    justify-content: center;
+}
+
+.first-box .backimg img {
+    height: 600px;
+}
+
+.headline {
+    width: 95vw;
+    background-color: white;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 350px;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+
+
+}
+
+.firstbox {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    position: relative;
+    top: -300px;
+}
+
+.first-box1 {
+    height: 400px;
+    width: 344px;
+    background-color: white;
+
+
+}
+
+.firstbox .first span {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    padding-top: 15px;
+
+}
+
+.firstbox .first img {
+    position: relative;
+    top: 50px;
+    height: 90px;
+    padding: 10px;
+}
+
+.firstbox .first a {
+    color: rgba(0, 0, 255, 0.741);
+    position: relative;
+    left: 25px;
+    font-size: 16px;
+    top: 100px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    text-decoration: none;
+
+}
+
+.firstbox .first a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+ 
+
+div .names .name1 {
+    font-size: 12px;
+    position: relative;
+    color: gray;
+    top: -95px;
+    cursor: pointer;
+}
+
+div .names .name2 {
+    font-size: 12px;
+    position: relative;
+    color: gray;
+    top: -95px;
+    left: 120px;
+    cursor: pointer;
+
+}
+
+div .names .name3 {
+    font-size: 12px;
+    position: relative;
+    color: gray;
+    top: 20px;
+    left: -100px;
+    cursor: pointer;
+
+}
+
+div .names .name4 {
+    font-size: 12px;
+    position: relative;
+    color: gray;
+    top: 20px;
+    left: -30px;
+    cursor: pointer;
+
+}
+
+.second span {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    position: relative;
+    top: 20px;
+    left: 20px;
+
+
+}
+
+.second img {
+    position: relative;
+    margin-left: 17px;
+    top: 30px;
+    width: 310px;
+    height: 290px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.second a {
+    color: rgba(0, 0, 255, 0.741);
+    position: relative;
+    left: 15px;
+    font-size: 16px;
+    top: 40px;
+    font-weight: 400;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.second a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+.third span {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    position: relative;
+    top: 20px;
+    left: 20px;
+
+
+}
+
+.third img {
+    position: relative;
+    margin-left: 17px;
+    top: 30px;
+    width: 310px;
+    height: 290px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.third a {
+    color: rgba(0, 0, 255, 0.741);
+    position: relative;
+    left: 15px;
+    font-size: 16px;
+    top: 40px;
+    font-weight: 400;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.third a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+.fourth span {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    position: relative;
+    top: 20px;
+    left: 20px;
+
+
+}
+
+.fourth img {
+    position: relative;
+    top: 30px;
+    height: 115px;
+    width: 150px;
+    padding: 10px;
+}
+
+.fourth div .name1 {
+    font-size: 12px;
+    position: relative;
+    color: gray;
+    top: -125px;
+    left: 10px;
+    cursor: pointer;
+}
+
+.fourth div .name2 {
+    font-size: 12px;
+    position: relative;
+    color: gray;
+    top: -125px;
+    left: 140px;
+    cursor: pointer;
+}
+
+.fourth div .name3 {
+    font-size: 12px;
+    position: relative;
+    color: gray;
+    top: 18px;
+    left: -70px;
+    cursor: pointer;
+}
+
+.fourth div .name4 {
+    font-size: 12px;
+    position: relative;
+    color: gray;
+    top: 18px;
+    left: 55px;
+    cursor: pointer;
+}
+
+.fourth a {
+    color: rgba(0, 0, 255, 0.741);
+    position: relative;
+    left: 15px;
+    font-size: 16px;
+    top: 40px;
+    font-weight: 400;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.fourth a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+.second-box {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    position: relative;
+    top: -280px;
+}
+
+.second-box .box2 {
+    height: 400px;
+    width: 344px;
+    background-color: white;
+}
+
+.second-box .first span {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+    left: 15px;
+}
+
+.second-box img {
+    position: relative;
+    top: 15px;
+    height: 115px;
+    width: 150px;
+    padding: 10px;
+}
+
+.second-box div .names .name1 {
+    font-size: 12px;
+    position: relative;
+    color: gray;
+    top: -135px;
+    cursor: pointer;
+    left: 10px;
+}
+
+.second-box div .names .name2 {
+    font-size: 12px;
+    position: relative;
+    color: gray;
+    top: -135px;
+    cursor: pointer;
+    left: 120px;
+}
+
+.second-box div .name3 {
+    font-size: 12px;
+    position: relative;
+    color: gray;
+    top: 5px;
+    left: -100px;
+    cursor: pointer;
+}
+
+.second-box div .name4 {
+    font-size: 12px;
+    position: relative;
+    color: gray;
+    top: 5px;
+    left: 0px;
+    cursor: pointer;
+}
+
+.second-box .first a {
+    color: rgba(0, 0, 255, 0.741);
+    position: relative;
+    left: 15px;
+    font-size: 16px;
+    top: 15px;
+    font-weight: 400;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.second-box .first a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+.second-box .second1 span {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+    left: 15px;
+}
+
+.second-box .second1 img {
+    position: relative;
+    margin-left: 6px;
+    top: 10px;
+    width: 310px;
+    height: 290px;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.second-box .second1 a {
+    color: rgba(0, 0, 255, 0.741);
+    position: relative;
+    left: 15px;
+    font-size: 16px;
+    top: 0px;
+    font-weight: 400;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.second-box .second1 a:hover {
+
+    text-decoration: underline;
+    color: red;
+}
+
+.second-box .third span {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+    left: 15px;
+
+}
+
+.second-box .third img {
+    position: relative;
+    margin-left: 6px;
+    top: 10px;
+    width: 310px;
+    height: 290px;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.second-box .third a {
+    color: rgba(0, 0, 255, 0.741);
+    position: relative;
+    left: 15px;
+    font-size: 16px;
+    top: 0px;
+    font-weight: 400;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.second-box .third a:hover {
+    text-decoration: underline;
+    color: red;
+
+}
+
+.second-box .fourth span {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+    left: 15px;
+
+}
+
+.second-box .fourth img {
+    position: relative;
+    margin-left: 6px;
+    top: 35px;
+    width: 310px;
+    height: 290px;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.second-box .fourth a {
+    color: rgba(0, 0, 255, 0.741);
+    position: relative;
+    left: 15px;
+    font-size: 16px;
+    top: 25px;
+    font-weight: 400;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.second-box .fourth a:hover {
+    text-decoration: underline;
+    color: red;
+
+}
+
+.third-box {
+    height: 300px;
+    background-color: white;
+    width: 95vw;
+    position: relative;
+    top: -250px;
+    left: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.third-box span {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+    left: 15px;
+
+}
+
+.third-box img {
+    height: 160px;
+
+}
+
+.third-box .img1 {
+    width: 300px;
+}
+
+.heading3 {
+    position: relative;
+    top: -530px;
+    left: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+/* this is for fourth box  */
+.fourth-box {
+    height: 300px;
+    background-color: white;
+    width: 95vw;
+    position: relative;
+    top: -250px;
+    left: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.first-box .headline span a{
+    color: blue;
+    text-decoration: none;
+    font-weight: 500;
+}
+.fifth-box {
+    position: relative;
+    top: 60px;
+}
+.fifth-box span .name1 {
+    position: relative;
+    left:40px;
+}
+.fifth-box .names  .name2 {
+    position: relative;
+    left:00px;
+}
+#action{
+    position: relative;
+    left: -55px;
+}
+.shop{
+    position: relative;
+    top: 50px;
+}
+.sisth-box{
+    height: 300px;
+    background-color: white;
+    width: 95vw;
+    position: relative;
+    top: -190px;
+    left: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.sisth-box img{
+    height: 170px;
+    padding: -50px;
+}
+.seventh-box{
+    background-color: white;
+    height: 100px;
+    width:95.5vw ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top:-170px;
+}
+.seven{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;    
+}
+.seventh-box .inner-box button{
+    padding: 10px;
+    width: 100px;
+}
+#btn{
+    width: 220px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(255, 166, 0, 0.813);
+    cursor: pointer;
+    font-size: 15px;
+    font-weight:700 ;
+}
+ 
+
+.seventh-box p span{
+    position: relative;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    left: -3px;
+    top: -5px;
+}
+.seventh-box p .span{
+    position: relative;
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    left: 33px;
+    top: 5px;
+}
+.navbar-box{
+    display: flex;
+    width:100vw;
+    background-color: rgb(22, 21, 21);
+    background-color: #324241;
+    color: white;
+    height:40px;
+    justify-content: center;
+    align-items: center;
+
+}
+.navbox{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -150px;
+}
+footer .footer{
+    height: 500px;
+    background-color: #072421;
+    position: relative;
+    top: -149px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    color:white;
+}
+footer .footer p{
+    color: rgba(255, 255, 255, 0.559);
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 15px;
+    font-size: 14px;
+}
+footer .footer p:hover{
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.footer .box-1{
+    position: relative;
+    top:-30px;
+}
+.footer .box-3{
+    position: relative;
+    top:-64px;
+}
+footer .footer h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+.footer1{
+    height: 150px;
+    background-color: #072421;
+    position: relative;
+    top:-148.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flag-1{
+    height: 40px;
+    width: 40px;
+}
+.footer1 .logo{
+    position: relative;
+    top: 28px;
+    left: -80px;
+     
+}
+.footer1 .lang-t select{
+    padding: 8px;
+    background-color: transparent;
+    border:1 px solid whitesmoke;
+    border-radius: 5px;
+    position: relative;
+    left: -20px;
+    top:-5px;
+    color: white;
+    font-weight: 700;
+    
+}
+.usdoller{
+    padding: 8px;
+    background-color: transparent;
+    border:1 px solid whitesmoke;
+    border-radius: 5px;
+    position: relative;
+    left: -10px;
+    top:-5px;
+    color: white;
+    font-weight: 700;
+    border: 1px solid whitesmoke;    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+.unitedstates{
+    padding: 8px;
+    background-color: transparent;
+    border:1 px solid whitesmoke;
+    border-radius: 5px;
+    position: relative;
+    left: 0px;
+    top:-5px;
+    color: white;
+    font-weight: 700;
+    border: 1px solid whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+.content-1{
+    position: absolute;
+    top: 1590px;
+    font-size: 14px;
+    left: 50px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.content-2{
+    position: absolute;
+    top: 2355px;
+    font-size: 14px;
+    left: 50px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+img:hover{
+    cursor: pointer;
+}
+.main-footer{
+    height: 600px;
+    background-color:rgb(21, 39, 39);
+    position: relative;
+    top: -148px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+.main-footer .containor-1f{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+   padding-top: 50px;
+    
+
+}
+
+.main-footer .containor-2f{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+   padding-top: 30px;
+    
+
+}
+.main-footer .containor-3f{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+   padding-top: 30px;
+    
+
+}
+.main-footer .containor-4f{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+   padding-top: 30px;
+}
+.main-footer .cont{
+    width: 90px;
+}
+.main-footer .head{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+ }
+ .main-footer .para{
+    color: rgba(240, 248, 255, 0.402);
+    font-size: 12px;
+ }
+ .main-footer .para:hover{
+    text-decoration: underline;
+    cursor: pointer;
+ }
+.main-footer .cont:hover {
+    text-decoration: underline;
+cursor: pointer;
+
+}
+.main-footer .box-main{
+    width:600px ;
+    position: relative;
+    top: 80px;
+
+
+}
+.box-main{
+    display: flex;
+    justify-content:center;
+    position: relative;
+    top: -270px;
+    color: white;color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    text-align:center;
+}
